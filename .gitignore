@@ -2,7 +2,7 @@
 server/.env
 /server/node_modules/
 # Ignorer tous les fichiers du dossier profile_pictures
-
+sonarscan.js
 # Mais ne pas ignorer le dossier profile_pictures lui-même
 !server/uploads/profile_pictures/.gitkeep
 !server/uploads/profile_pictures/profile_picture-1733920048860-972297989.jpg
@@ -10,3 +10,7 @@ server/.env
 *.png
 
 server/uploads/profile_pictures/profile_picture-1733753693406-193304891.jpeg
+node_modules/.bin/semver
+/node_modules/.bin
+/node_modules
+.scannerwork/

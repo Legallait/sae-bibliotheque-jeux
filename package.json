@@ -1,0 +1,13 @@
+{
+  "name": "sae-bibliotheque-jeux",
+  "version": "1.0.0",
+  "description": "Projet SAE Bibliothèque de jeux",
+  "main": "index.js",
+  "scripts": {
+    "sonar": "node sonarscan.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "sonarqube-scanner": "^4.2.7"
+  }
+}
